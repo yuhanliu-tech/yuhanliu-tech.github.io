@@ -1,109 +1,177 @@
-body{
-  
-    background: linear-gradient(SkyBlue, silver);
-   
-   }
-   
-   h1{
-     font-size:40;
-     color: MidnightBlue;
-     padding:5px;
-     text-align:center;
-     background:seashell;
-     box-shadow:4px 4px 4px CadetBlue;
-   }
-   
-   h2{
-     font-size:30;
-     color:MidnightBlue;
-     padding:5px;
-     text-align: center;
-     background:seashell;
-     margin-left: auto;
-     margin-right:auto;
-     width: 80%;
-     box-shadow:4px 4px 4px CadetBlue;
-   }
-   
-   h3{
-     font-size:25;
-     color:MidnightBlue;
-     padding:5px;
-     text-align:center;
-     background:seashell;
-     box-shadow:4px 4px 4px CadetBlue;
-     width: 70%;
-     margin-right: auto;
-     margin-left: auto;
-   }
-   h4{
-     font-size:20;
-     color:MidnightBlue;
-     padding:5px;
-     text-align:left;
-     background:seashell;
-     box-shadow:4px 4px 4px CadetBlue;
-     width: 85%;
-     margin-right: auto;
-     margin-left: auto;
-   }
+body {
+    background: linear-gradient(steelblue, cadetblue);
+    font-family: "Helvetica", sans-serif;
+    color: MidnightBlue;
+}
 
-   
-   .column1{
-     width:48%;
-     float: left;
-   }
-   
-   .column2{
-     width:48%;
-     float:right;
-   }
-   
-   .item{
-     border: 3px inset CadetBlue;
-     margin: 5px;
-   }
-   
-   .item2{
-     border: 3px inset CadetBlue;
-     margin: 5px;
-     background-color: lightblue;
-     float:right;
-   }
-   
-   .photo{
-     box-shadow: 4px 4px 4px CadetBlue;
-     height: 10%;
-     width: 40%;
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-   }
-   
-   .link{
-       font-size:30;
-     color:seashell;
-     padding:5px;
-     text-align:center;
-     background:seashell;
-     box-shadow:4px 4px 4px CadetBlue;
-     width: 85%;
-     margin-right: auto;
-     margin-left: auto;
-     margin-bottom:auto;
-   }
-   
-   #animation{
-     height: 150px;
-     position:absolute;
-     left: -200px;
-     animation: slide 9s infinite; 
-   }
-   
-   
-   @keyframes slide{
-     0% {left: -300px }
-     50%{left: 50 }
-     100%{left: -300px }
-   }
-   
+hr{
+  height: 2px;
+  background-color: oldlace;
+  border: none;
+}
+
+.photo{
+  box-shadow: 4px 4px 4px MidnightBlue;
+  height: 80%;
+  width: 80%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+h1{
+  font-size: 50px;
+  color: oldlace;
+  padding:5px;
+  text-align:center;
+  text-shadow: 2px 2px midnightblue;
+}
+
+h2{
+  font-size:35;
+  padding:5px;
+  color: oldlace;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+  width: 80%;
+  text-shadow: 2px 2px midnightblue;
+}
+
+h3{
+  font-size:30;
+  color:oldlace;
+  padding:5px;
+  text-align:center;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 2px 2px midnightblue;
+}
+h4{
+  font-size:20;
+  color:oldlace;
+  padding:5px;
+  text-align:left;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: normal;
+}
+
+
+.column1{
+  width:49%;
+  float: left;
+}
+
+.column2{
+  width:49%;
+  float:right;
+}
+
+.item{
+  margin: 20px;
+}
+
+.item2{
+  border: 3px inset CadetBlue;
+  margin: 5px;
+  background-color: lightblue;
+  float:right;
+}
+
+
+nav ul {
+    background-color: oldlace;
+    border-style: solid;
+    border-color: MidnightBlue;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+    h4 ul li {
+
+      list-style-type: none;
+        display: inline;
+        margin-right: 30px;
+        margin-left: 30px;
+        color: Steelblue;
+        float: center;
+
+    }
+
+    h4 ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 110%;
+  }
+  h4 ul li a:hover {
+    color: midnightblue;
+  }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: Steelblue;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: midnightblue;
+      font-size: 110%;
+  }
+  nav ul li a:hover {
+    color: Steelblue;
+  }
+
+.darkerBackground {
+  background-color: #99bbff;
+}
+
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #F5FFFA;
+  padding-bottom: 10px;
+}
+
+
+.stylishBox {
+  background-color: #c1ebec;
+  color: #A52A2A;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F5FFFA;
+  border-radius: 10px;
+}
+
+.someSpacing {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.smallPictures {
+  width: 100px;
+}
+
+.mediumPictures {
+  width: 200px;
+}
+
+.niceLinks {
+  text-decoration: none;
+  color: Steelblue;
+}
+.niceLinks:hover {
+  color: #00FF7F;
+}
+
+p {
+  margin: 10;
+  font-size: 110%;
+  line-height: 150%;
+  color: white;
+}
