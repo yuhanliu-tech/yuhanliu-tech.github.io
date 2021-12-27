@@ -1,2 +1,1 @@
-# yuhanliu-tech.github.io
-Personal Website
+Hi! I'm Yuhan and I'm a freshie at Penn. :)
