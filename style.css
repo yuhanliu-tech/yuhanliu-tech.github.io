@@ -6,7 +6,7 @@ body {
 
 hr{
   height: 2px;
-  background-color: oldlace;
+  background-color: steelblue;
   border: none;
 }
 
@@ -14,6 +14,24 @@ hr{
   box-shadow: 4px 4px 4px MidnightBlue;
   height: 80%;
   width: 80%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.arthphoto{
+  box-shadow: 4px 4px 4px MidnightBlue;
+  height: 10%;
+  width: 20%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.artphoto{
+  box-shadow: 4px 4px 4px MidnightBlue;
+  height: 40%;
+  width: 40%;
   display: block;
  margin-left: auto;
  margin-right: auto;
@@ -30,29 +48,27 @@ h1{
 h2{
   font-size:35;
   padding:5px;
-  color: oldlace;
+  color: steelblue;
   text-align: center;
   margin-left: auto;
   margin-right:auto;
   width: 80%;
-  text-shadow: 2px 2px midnightblue;
 }
 
 h3{
   font-size:30;
-  color:oldlace;
+  color:steelblue;
   padding:5px;
   text-align:center;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
-  text-shadow: 2px 2px midnightblue;
 }
 h4{
   font-size:20;
-  color:oldlace;
+  color:midnightblue;
   padding:5px;
-  text-align:left;
+  text-align:center;
   width: 85%;
   margin-right: auto;
   margin-left: auto;
@@ -71,14 +87,15 @@ h4{
 }
 
 .item{
-  margin: 20px;
+  margin: 25px;
 }
 
 .item2{
-  border: 3px inset CadetBlue;
-  margin: 5px;
-  background-color: lightblue;
+  border: 3px inset MidnightBlue;
+  margin: 30px;
+  background-color: oldlace;
   float:right;
+  border-radius: 10px;
 }
 
 
@@ -104,18 +121,18 @@ nav ul {
 
     h4 ul li a {
       text-decoration: none;
-      color: white;
+      color: midnightblue;
       font-size: 110%;
   }
   h4 ul li a:hover {
-    color: midnightblue;
+    color: steelblue;
   }
 
     nav ul li {
         list-style-type: none;
         display: inline;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
         color: Steelblue;
     }
     nav ul li a {
@@ -173,5 +190,5 @@ p {
   margin: 10;
   font-size: 110%;
   line-height: 150%;
-  color: white;
+  color: midnightblue;
 }
